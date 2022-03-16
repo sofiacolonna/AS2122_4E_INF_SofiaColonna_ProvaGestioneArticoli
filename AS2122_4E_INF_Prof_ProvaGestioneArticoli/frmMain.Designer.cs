@@ -100,6 +100,7 @@ namespace AS2122_4E_INF_Prof_ProvaGestioneArticoli
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Dettagli articolo selezionato";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // lblPrezzo
             // 
