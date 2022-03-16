@@ -36,7 +36,8 @@ namespace AS2122_4E_INF_Prof_ProvaGestioneArticoli
                 // TODO: (1) aggiungere l'articolo creato dai dati di frmArticoli nella lista articoli
                 // ...
                 Articolo a = new Articolo();
-                articoli.Add();
+
+                articoli.Add(a);
 
                 lblArticoliInseriti.Text = $"Articoli ({articoli.Count})";
  
@@ -64,6 +65,9 @@ namespace AS2122_4E_INF_Prof_ProvaGestioneArticoli
 
             // TODO: (3) aggiungere visualizzazione dettaglio articolo nelle label
             // ... lblDescrizione.Text = articoli[index].Descrizione;
+            lblDescrizione.Text = articoli[index].Descrizione;
+            lblPrezzo.Text = articoli[index].Prezzo;
+            lblUnitaMisura.Text = articoli[index].UnitaDiMisura;
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)

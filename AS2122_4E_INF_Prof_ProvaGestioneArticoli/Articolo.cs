@@ -28,6 +28,10 @@ namespace AS2122_4E_INF_Prof_ProvaGestioneArticoli
             
         }
 
+        public string Descrizione { get; internal set; }
+        public string Prezzo { get; internal set; }
+        public string UnitaDiMisura { get; internal set; }
+
         public string Visualizzati()
         {
             return $"{descrizione} {unitaDiMisura} {prezzo} ({codice})";
