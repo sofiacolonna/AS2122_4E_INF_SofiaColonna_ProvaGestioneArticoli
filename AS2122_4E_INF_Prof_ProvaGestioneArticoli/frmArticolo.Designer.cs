@@ -51,6 +51,7 @@ namespace AS2122_4E_INF_Prof_ProvaGestioneArticoli
             this.cmbUnitaMisura.Name = "cmbUnitaMisura";
             this.cmbUnitaMisura.Size = new System.Drawing.Size(68, 28);
             this.cmbUnitaMisura.TabIndex = 2;
+            this.cmbUnitaMisura.SelectedIndexChanged += new System.EventHandler(this.cmbUnitaMisura_SelectedIndexChanged);
             // 
             // txtPrezzo
             // 
