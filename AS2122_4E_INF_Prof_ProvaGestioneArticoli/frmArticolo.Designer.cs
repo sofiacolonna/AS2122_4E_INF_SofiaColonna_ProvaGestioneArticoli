@@ -129,6 +129,7 @@ namespace AS2122_4E_INF_Prof_ProvaGestioneArticoli
             this.Controls.Add(this.label2);
             this.Name = "frmArticolo";
             this.Text = "Dettagli articolo";
+            this.Load += new System.EventHandler(this.frmArticolo_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

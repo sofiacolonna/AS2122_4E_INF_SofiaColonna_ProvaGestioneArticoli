@@ -16,6 +16,9 @@ namespace AS2122_4E_INF_Prof_ProvaGestioneArticoli
 
         // TODO: (5) aggiungere attributi privati dei dati inseriti nella frmArticoli
         // ...
+        private string Descrizione { get; set; }
+        private string UnitaDiMisura { get; set; }
+        private double Prezzo { get; set; }
 
         public DialogResult Status { get { return status; } }
 
@@ -42,6 +45,11 @@ namespace AS2122_4E_INF_Prof_ProvaGestioneArticoli
         }
 
         private void cmbUnitaMisura_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmArticolo_Load(object sender, EventArgs e)
         {
 
         }
